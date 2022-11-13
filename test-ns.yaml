@@ -1,0 +1,8 @@
+# kubectl create ns test-ns --dry-run=client -o yaml > test-ns.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: null
+  name: test-ns
+spec: {}
+status: {}
